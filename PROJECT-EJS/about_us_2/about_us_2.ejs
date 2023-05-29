@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/app/css/style.css">
+    <link rel="stylesheet" href="../public/app/css/style_2.css">
+    <link rel="stylesheet" href="../public/app/css/bootstrap.css">
+    <link rel="stylesheet" href="../public/app/css/bootstrap.min.css">
+    <link rel="icon" type="image/x-icon" href="../public/app/img/logo_title.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script src="../public/app/js/bootstrap.js"></script>
+    <title>Câu chuyện thành công</title>
+</head>
+
+<body>
+    <header id="header" class="z-5 w-100 top-0 start-0 z-lg position-fixed fixed">
+        <div class="container position-relative">
+            <div class="header row justify-content-between flex-wrap position-relative align-items-center">
+                <div class="header_logo text-center col-lg-2 text-lg-start">
+                    <a href="/">
+                    <div class="logo">
+                        <img width="75" height="55" src="../public/app/img/design_logo.png" alt="">
+                    </div>
+                    </a>
+                </div>
+                <!-- phan giua -->
+                <div class="main_menu col-lg-9 d-lg-flex align-items-center justify-content-end mt-lg-sm">
+                    <div class="menu-main-menu-container">
+                        <ul class="d-flex flex-lg-row navbar-nav">
+                            <li class="nav-item"><a href="/">TRANG CHỦ</a></li>
+                            <li class="nav-item"><a  class="choose-item" href="about-us">VỀ CHÚNG TÔI</a></li>
+                            <li class="nav-item"><a href="">CÔNG VIỆC</a></li>
+                            <li class="nav-item has-submenu"><a href="">HỌC TẬP</a>
+                                <div class="contain-submenu">
+                                    <ul class="submenu">
+                                        <li class="btn-li"><a href="study">DU HỌC TẠI CANADA</a></li>
+                                        <li class="btn-li"><a href="#">DU HỌC TẠI MỸ</a></li>
+                                        <li class="btn-li"><a href="#">DU HỌC TẠI ÚC</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a href="visa">VISA</a>
+                            </li>
+                            <li class="nav-item"><a href="contact">LIÊN HỆ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class=" col-md-4 col-12 col-lg-1 d-lg-flex align-items-center justify-content-end">
+                    <p class="mb-0 search_icon position-fixed position-lg-static cursor-pointer">
+                        <img class="fixed_search_icon" width="23" height="23" src="../public/app/img/search.png" alt="" />
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active c-item-2">
+                        <img src="../public/app/img/image_about_us.jpg" class="d-block w-100 c-img" alt="Slide 1">
+                        <div class="c-text position-absolute top-50 start-0 w-100 translate-middle-y z-1">
+                            <div class="container">
+                                <div class="c-context-about-us">
+                                    <h1>Về chúng tôi</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="section">
+            <div class="menu_tab">
+                <div class="container">
+                    <div class="menu-about-us-container">
+                        <ul id="menu-about-us" class="d-flex m-0 text-uppercase ">
+                            <li id="menu-item-373"
+                                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-8 menu-item-373">
+                                <a href="about-us">Chúng tôi là
+                                    (Tên công ty)</a></li>
+                            <li id="menu-item-372"
+                                class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-372">
+                                <a href="about-us-partner"  aria-current="page" >Giải thưởng – Đối tác</a></li>
+                            <li id="menu-item-371"
+                                class="menu-item menu-item-type-post_type menu-item-object-page current_page_item  menu-item-371"><a
+                                    href="about-us-story">Câu chuyện thành công</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- -------------------------------------------------Phần thưởng-------------------------------------------- -->
+
+        <section>
+            <div class="story_success_main py-5 mt-lg-2">
+                <div class="container wow fadeInUp" style="visibility: visible; opacity: 1; overflow: visible;"
+                    id="_no-clickjacking-0">
+                    <div class="story_success_desc mb-3">
+
+                        <h2 class="main_title wp-block-heading"
+                            id="h-aims-tự-hao-phục-vụ-18-000-khach-hang-thanh-cong-từ-nam-2006">(Tên công ty) tự hào phục vụ
+                            18.000 khách hàng thành công từ năm 2006!</h2>
+
+
+
+                        <p>Tại (Tên công ty), chúng tôi hiểu rằng mỗi bộ hồ sơ định cư lại có một&nbsp;khó khăn khác nhau. Đằng
+                            sau 18.000&nbsp;câu chuyện thành công trải dài trên 17 năm kinh nghiệm là 18.000 câu chuyện
+                            của (Tên công ty) đã&nbsp;“vượt khó” cùng với khách.</p>
+
+
+
+                        <p><strong><mark style="background-color:rgba(0, 0, 0, 0);color:#800000"
+                                    class="has-inline-color">Hồ sơ bị từ chối</mark><br></strong>– Chúng tôi đã cùng
+                            luật sư bản địa nộp kháng cáo lên Bộ Di trú, thức trắng đêm để đợi phản hồi và bổ sung bằng
+                            chứng cần thiết<br><strong><mark style="background-color:rgba(0, 0, 0, 0);color:#800000"
+                                    class="has-inline-color">Tài sản lớn tích lũy từ những ngày đầu khách khởi nghiệp
+                                    nên không đầy đủ chứng từ</mark><br></strong>– Nhân viên của (Tên công ty) cùng các chuyên
+                            gia thẩm định, kế toán theo khách về tận cơ sở kinh doanh để rà soát hồ sơ, chứng minh nguồn
+                            tiền<br><strong><mark style="background-color:rgba(0, 0, 0, 0);color:#800000"
+                                    class="has-inline-color">Thời gian xử lý hồ sơ kéo dài hơn quy định do các lý do bất
+                                    khả kháng</mark><br></strong>– Một mặt, (Tên công ty) động viên khách hàng không từ bỏ. Mặt
+                            khác, với mối quan hệ chiến lược cùng đại diện chính quyền, lãnh đạo (Tên công ty) trực tiếp thúc đẩy
+                            tiến độ hồ sơ<br><br>Mỗi bộ hồ sơ thành công là một lần giá trị “tận tâm” của (Tên công ty) được
+                            khẳng định. Tại (Tên công ty), chúng tôi luôn tâm niệm “không có hồ sơ khó”, chỉ có hồ sơ chưa được
+                            “gõ đúng cửa, tìm đúng chuyên gia”. Hy vọng, chuyên môn của chúng tôi sẽ giúp gia đình nhanh
+                            chóng đến với quốc gia mình ao ước!</p>
+
+
+
+                        <p>Chúng tôi kính mời quý khách hàng <a
+                                href="index.php?option=com_content&amp;view=category&amp;id=12">đặt lịch hẹn</a> và bắt
+                            đầu hành trình “hiện thực hóa giấc mơ định cư” cùng với (Tên công ty), gia nhập cộng đồng khách hàng
+                            thành công không ngừng tăng trưởng của tập đoàn!</p>
+                    </div>
+
+                    <div class="story_success_list mb-3">
+
+                        <div class="settled-select">
+                            <select class="select-success-story select2-hidden-accessible" id="select-success-story"
+                                data-select2-id="select2-data-select-success-story" tabindex="-1" aria-hidden="true">
+                                <option value="0" data-select2-id="select2-data-2-c3vo">Tất cả</option>
+                                <option value="https://aimsvietnam.com/cau-chuyen-thanh-cong/?term_id=79">Định cư Caribe
+                                </option>
+                                <option value="https://aimsvietnam.com/cau-chuyen-thanh-cong/?term_id=80">Định cư Úc
+                                </option>
+                                <option value="https://aimsvietnam.com/cau-chuyen-thanh-cong/?term_id=81">Định cư Châu
+                                    Âu</option>
+                                <option value="https://aimsvietnam.com/cau-chuyen-thanh-cong/?term_id=83">Định cư Canada
+                                </option>
+                                <option value="https://aimsvietnam.com/cau-chuyen-thanh-cong/?term_id=84">Định cư Mỹ
+                                </option>
+                                <option value="https://aimsvietnam.com/cau-chuyen-thanh-cong/?term_id=86">Định cư
+                                    Vanuatu</option>
+                                <option value="https://aimsvietnam.com/cau-chuyen-thanh-cong/?term_id=89">Định cư
+                                    Singapore</option>
+                            </select><span class="select2 select2-container select2-container--default" dir="ltr"
+                                data-select2-id="select2-data-1-fmku" style="width: 321px;"><span
+                                    class="selection"><span class="select2-selection select2-selection--single"
+                                        role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0"
+                                        aria-disabled="false" aria-labelledby="select2-select-success-story-container"
+                                        aria-controls="select2-select-success-story-container"><span
+                                            class="select2-selection__rendered"
+                                            id="select2-select-success-story-container" role="textbox"
+                                            aria-readonly="true" title="Tất cả">Tất cả</span><span
+                                            class="select2-selection__arrow" role="presentation"><b
+                                                role="presentation"></b></span></span></span><span
+                                    class="dropdown-wrapper" aria-hidden="true"></span></span>
+                        </div>
+                        <div class="row story_success_list pt-6 pt-lg-4">
+                            <div class="col-12 col-md-6 mb-4">
+                                <div class="item h-100">
+                                    <figure class="effect_img">
+                                        <a href="">
+                                            <img
+                                                width="1110" height="625"
+                                                class="object-cover w-100 h-100 entered lazyloaded"
+                                                src="../public/app/img/image_person_success/success_1.jpg"
+                                                alt=""
+                                                data-lazy-src=""
+                                                data-ll-status="loaded">
+                                        </a>
+                                    </figure>
+                                    <div class="txt">
+                                        <h3 class="mb-0">
+                                            <a  class="name_person_success" href="">Vũ Thiên Trúc</a>
+                                        </h3>
+                                        <p class="cate mb-0">Định cư Canada</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 mb-4">
+                                <div class="item h-100">
+                                    <figure class="effect_img">
+                                        <a href="" class="name_person_success">
+                                            <img
+                                                width="1080" height="700"
+                                                class="object-cover w-100 h-100 entered lazyloaded"
+                                                src="../public/app/img/image_person_success/success_2.webp"
+                                                alt=""
+                                                data-lazy-src=""
+                                                data-ll-status="loaded">
+                                            </a>
+                                        </figure>
+                                    <div class="txt">
+                                        <h3 class="mb-0"><a  class="name_person_success"
+                                                href="">Ng.L.D.</a></h3>
+                                        <p class="cate mb-0">Định cư Úc</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-links pager-list panigation-12">
+                            <div class="container">
+                                <div class="st-pagelink" data="2"><a class="prev page-numbers" href="">
+                                    <img width="24" height="24" src="../public/app/img/arrow_left_btn.png"></a>
+                                    <a class="page-numbers" href="">1</a>
+                                    <a class="page-numbers" href="">2</a>
+                                    <a class="page-numbers"
+                                        href="">3</a>
+                                    <a class="page-numbers"
+                                        href="">4</a>
+                                    <a class="page-numbers"
+                                        href="">17</a>
+                                    <a class="next page-numbers" href="">
+                                        <img width="24" height="24" src="../public/app/img/arrow_right_btn.png" alt=""
+                                            data-lazy-src="" data-ll-status="loaded"
+                                            class="entered lazyloaded"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+         <!-- -------------------------------------------------ĐẶT LỊCH HẸN-------------------------------------------- -->
+        <section >
+            <div class="book_contact">
+                <div class="container">
+                    <div class="widget widget_block widget_media_image">
+                        <div class="widget-content">
+                            <figure class="wp-block-image size-large">
+                                <img decoding="async" width="1024" height="128" src="../public/app/img/passport.webp"
+                                    alt="" class="wp-image-521 entered lazyloaded">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="widget widget_block">
+                        <div class="widget-content">
+                            <div class="wp-block-columns is-layout-flex wp-container-3">
+                                <div class="wp-block-column is-layout-flow">
+                                    <h3 class="wp-block-heading" style="color: white;">Tối đa hóa thành công với (Tên công ty)</h3>
+                                    <p>Tại (Tên công ty), đội ngũ chuyên viên tư vấn tận tâm, chuyên nghiệp với những kiến thức
+                                        chuyên sâu sẽ đưa ra những hướng dẫn, tư vấn cụ thể nhất hướng tới mục tiêu
+                                        ‘<em><strong>Tối đa hóa sự thành công</strong></em>’ của bạn.</p>
+                                </div>
+                                <div class="wp-block-column is-layout-flow">
+                                    <p class="main_button"><a class="advisory-button" style="text-align: center;" href="#!">Đặt lịch hẹn</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- --------------------------------------------------FOOTER-------------------------------------------- -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row px-15px px-lg-0 footer_address pt-lg-7 pb-lg-6 wow fadeInUp"
+                    style="visibility: visible;">
+                    <p class="mb-0 d-lg-none btn_click d-flex justify-content-between align-items-center">Văn phòng <i
+                            class="fa-regular fa-chevron-down"><svg aria-hidden="true" focusable="false"
+                                data-prefix="fas" data-icon="chevron-down"
+                                class="svg-inline--fa fa-chevron-down fa-w-14" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z">
+                                </path>
+                            </svg></i></p>
+                    <div class="p-lg-15px col-lg-5 footer_show d-lg-block pt-1 pb-lg-0 pt-lg-0">
+                        <div class="widget widget_block">
+                            <div class="widget-content">
+                                <h3 class="wp-block-heading">VĂN PHÒNG TP.HỒ CHÍ MINH</h3>
+                            </div>
+                        </div>
+                        <div class="widget widget_block widget_text">
+                            <div class="widget-content">
+                                <p>Phòng 1906, Tầng 19, Tòa nhà Sun Wah</p>
+                            </div>
+                        </div>
+                        <div class="widget widget_block widget_text">
+                            <div class="widget-content">
+                                <p>115 Nguyễn Huệ, Phường Bến Nghé, Quận 1, TP.HCM</p>
+                            </div>
+                        </div>
+                        <div class="widget widget_block widget_text">
+                            <div class="widget-content">
+                                <p>HCM: 088 888 4567</p>
+                            </div>
+                        </div>
+                        <div class="address_hn">
+                            <div class="widget widget_block">
+                                <div class="widget-content">
+                                    <h3 class="wp-block-heading">VĂN PHÒNG HÀ NỘI</h3>
+                                </div>
+                            </div>
+                            <div class="widget widget_block widget_text">
+                                <div class="widget-content">
+                                    <p>Phòng 2206, Tầng 22, Tòa nhà Đông, Lotte Center</p>
+                                </div>
+                            </div>
+                            <div class="widget widget_block widget_text">
+                                <div class="widget-content">
+                                    <p>54 Liễu Giai, Phường Cống Vị, Quận Ba Đình, Hà Nội</p>
+                                </div>
+                            </div>
+                            <div class="widget widget_block widget_text">
+                                <div class="widget-content">
+                                    <p>HN: 088 888 6898</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="mb-0 d-lg-none btn_click d-flex justify-content-between align-items-center">Giới thiệu <i
+                            class="fa-regular fa-chevron-down"><svg aria-hidden="true" focusable="false"
+                                data-prefix="fas" data-icon="chevron-down"
+                                class="svg-inline--fa fa-chevron-down fa-w-14" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z">
+                                </path>
+                            </svg></i></p>
+                    <div class="p-lg-15px col-lg-2 footer_show d-lg-block pt-1 pt-lg-0 footer_menu01">
+                        <h3 class="d-none d-lg-block">Giới thiệu</h3>
+                        <div class="menu-ve-chung-toi-container">
+                            <ul id="menu-ve-chung-toi" class="m-0 footer_menu" style="padding-left: 0;">
+                                <li id="menu-item-37"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37"><a
+                                        href="">Giới thiệu về (Tên công ty)</a></li>
+                                <li id="menu-item-54"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-54"><a
+                                        href="">Sự Kiện</a></li>
+                                <li id="menu-item-39"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39"><a
+                                        href="">Tin tức</a></li>
+                                <li id="menu-item-38"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a
+                                        href="">Liên Hệ (Tên công ty)</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="mb-0 d-lg-none btn_click d-flex justify-content-between align-items-center">Chương trình
+                        <i class="fa-regular fa-chevron-down"><svg aria-hidden="true" focusable="false"
+                                data-prefix="fas" data-icon="chevron-down"
+                                class="svg-inline--fa fa-chevron-down fa-w-14" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z">
+                                </path>
+                            </svg></i></p>
+                    <div class="p-lg-15px col-lg-5 footer_show d-lg-block pt-1 pt-lg-0 footer_menu02">
+                        <h3 class="d-none d-lg-block">Chương trình</h3>
+                        <div class="menu-chuong-trinh-container">
+                            <ul id="menu-chuong-trinh" class="m-0 footer_menu" style="padding-left: 0;">
+                                <li id="menu-item-9578"
+                                    class="menu-item menu-item-type-taxonomy menu-item-object-chuong-trinh menu-item-9578">
+                                    <a href="">Định cư Úc</a></li>
+                                <li id="menu-item-9581"
+                                    class="menu-item menu-item-type-taxonomy menu-item-object-chuong-trinh menu-item-9581">
+                                    <a href="">Định cư Châu Âu</a></li>
+                                <li id="menu-item-9579"
+                                    class="menu-item menu-item-type-taxonomy menu-item-object-chuong-trinh menu-item-9579">
+                                    <a href="">Định cư Canada</a></li>
+                                <li id="menu-item-9582"
+                                    class="menu-item menu-item-type-taxonomy menu-item-object-chuong-trinh menu-item-9582">
+                                    <a href="">Định cư Caribê</a></li>
+                                <li id="menu-item-9580"
+                                    class="menu-item menu-item-type-taxonomy menu-item-object-chuong-trinh menu-item-9580">
+                                    <a href="">Định cư Mỹ</a></li>
+                                <li id="menu-item-9583"
+                                    class="menu-item menu-item-type-taxonomy menu-item-object-chuong-trinh menu-item-9583">
+                                    <a href="">Định cư các nước khác</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom text-center bg-body-footer text-white">
+                <div class="container">
+                    <p class="mb-0 d-none event_foot">Công ty Tư vấn Định cư (Tên công ty) Việt Nam tổ chức</p>
+                    <div class="row">
+                        <div class="col-12 col-lg-6 text-lg-start">
+                            <div class="widget widget_block widget_text">
+                                <div class="widget-content">
+                                    <p>(Tên công ty) Việt Nam © 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 text-lg-end">
+                            <div class="widget widget_block">
+                                <div class="widget-content">
+                                    <ul>
+                                        <li><a target="_blank" href="https://www.facebook.com/aimsvn/"><i
+                                                    class="fab fa-facebook-f"><svg aria-hidden="true" focusable="false"
+                                                        data-prefix="fab" data-icon="facebook-f"
+                                                        class="svg-inline--fa fa-facebook-f fa-w-10" role="img"
+                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                                    </svg></i></a></li>
+                                        <li><a target="_blank" href="https://www.instagram.com/aimsvietnam/"><i
+                                                    class="fab fa-instagram"><svg aria-hidden="true" focusable="false"
+                                                        data-prefix="fab" data-icon="instagram"
+                                                        class="svg-inline--fa fa-instagram fa-w-14" role="img"
+                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                    </svg></i></a></li>
+                                        <li><a target="_blank" href="https://www.youtube.com/@aimsvietnam"><i
+                                                    class="fab fa-youtube"><svg aria-hidden="true" focusable="false"
+                                                        data-prefix="fab" data-icon="youtube"
+                                                        class="svg-inline--fa fa-youtube fa-w-18" role="img"
+                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                    </svg></i></a></li>
+                                        <li><a target="_blank" href="https://www.linkedin.com/company/aims-vn/"><i
+                                                    class="fab fa-linkedin"><svg aria-hidden="true" focusable="false"
+                                                        data-prefix="fab" data-icon="linkedin"
+                                                        class="svg-inline--fa fa-linkedin fa-w-14" role="img"
+                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                    </svg></i></a></li>
+                                        <li><a target="_blank" href="https://twitter.com/aimsvietnam"><i
+                                                    class="fab fa-twitter"><svg aria-hidden="true" focusable="false"
+                                                        data-prefix="fab" data-icon="twitter"
+                                                        class="svg-inline--fa fa-twitter fa-w-16" role="img"
+                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                    </svg></i></a></li>
+                                        <li><a target="_blank" href="https://twitter.com/aimsvietnam"><i
+                                                    class="fab fa-tiktok"><svg aria-hidden="true" focusable="false"
+                                                        data-prefix="fab" data-icon="twitter"
+                                                        class="svg-inline--fa fa-twitter fa-w-16" role="img"
+                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                    </svg></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="../public/app/js/jquery.js"></script>
+    <script src="../public/app/js/slider.js"></script>
+</body>
+
+</html>
